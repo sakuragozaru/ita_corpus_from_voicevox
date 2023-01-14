@@ -4,6 +4,7 @@ ITAコーパス出力くん
 ITAコーパス( https://github.com/mmorise/ita-corpus )の424文を  
 VOICEVOX( https://github.com/VOICEVOX/voicevox_engine )を用いて出力します。  
 （一部の文は分割されているため進捗バーの分母は443となっています）
+![スクリーンショット](https://github.com/sakuragozaru/ita_corpus_from_voicevox/blob/images/images/2023-01-14_093223.png "スクリーンショット")
 
 # 使い方
 1. VOICEVOX ENGINE( https://github.com/VOICEVOX/voicevox_engine )をダウンロードして起動してください
