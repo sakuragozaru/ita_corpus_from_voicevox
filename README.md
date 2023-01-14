@@ -3,7 +3,7 @@ ITAコーパス出力くん
 # これはなに？
 ITAコーパス( https://github.com/mmorise/ita-corpus )の424文を  
 VOICEVOX( https://github.com/VOICEVOX/voicevox_engine )を用いて出力します。  
-（一部の文は分割されているため進捗バーの分母は443となっています）
+（一部の文は分割されているため進捗バーの分母は443となっています）   
 ![スクリーンショット](https://github.com/sakuragozaru/ita_corpus_from_voicevox/blob/images/images/2023-01-14_093223.png "スクリーンショット")
 
 # 使い方
@@ -30,3 +30,4 @@ corpus.csvを別のファイルに置き換えてください。各行は「フ�
 * 2023/01/14 02:26 ITAコーパスからCSV作成完了
 * 2023/01/14 11:15 実装完了
 * 2023/01/14 11:25 Github用のREADME.md作成
+* 2023/01/14 11:50 exe再出力とREADMEに画像添付
