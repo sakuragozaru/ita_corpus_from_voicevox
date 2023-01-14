@@ -1,8 +1,8 @@
 ITAコーパス出力くん
 ====
 # これはなに？
-ITAコーパス( https://github.com/mmorise/ita-corpus )の424文を
-VOICEVOX( https://github.com/VOICEVOX/voicevox_engine )を用いて出力します。
+ITAコーパス( https://github.com/mmorise/ita-corpus )の424文を  
+VOICEVOX( https://github.com/VOICEVOX/voicevox_engine )を用いて出力します。  
 （一部の文は分割されているため進捗バーの分母は443となっています）
 
 # 使い方
@@ -14,14 +14,14 @@ VOICEVOX( https://github.com/VOICEVOX/voicevox_engine )を用いて出力しま�
 
 # Q&A
 ### Voicevoxと接続中と表示されたあとに何も表示されません
-VOICEVOX ENGINEの起動に失敗してるかも。
+VOICEVOX ENGINEの起動に失敗してるかも。  
 VOICEVOX ENGINEの画面に `Application startup complete.` と表示されているか確認してください。
 ### 出力に時間がかかります
 それなりに時間がかかります。参考に私の環境では全部完了するのに45分程度かかります。
 ### 用いるコーパスを変更したいです
 corpus.csvを別のファイルに置き換えてください。各行は「ファイル名,日本語文」です。
 ### 選びたい話者がいません
-話者とスタイルは今起動しているVOICEVOX ENGINEから取得しています。
+話者とスタイルは今起動しているVOICEVOX ENGINEから取得しています。  
 最新のVOICEVOX ENGINEを入手してください。
 
 # 制作ログ
