@@ -61,7 +61,7 @@ def synthesis(speaker, json):
 def output_wav_txt(folder, speaker, filername, text):
   audio_query_response = audio_query(speaker, text)
   os.makedirs(f"{folder}/text", exist_ok=True)
-  with open(f'{folder}/text/{filername}.txt',"w") as file:
+  with open(f'{folder}/text/{filername}.txt',"w", encoding='utf-8') as file:
     file.write(audio_query_response.json()["kana"].replace("'","").replace("_","").replace("/",""))
 
   wav_response = synthesis(speaker, audio_query_response.text)
