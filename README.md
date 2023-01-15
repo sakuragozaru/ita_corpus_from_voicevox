@@ -15,14 +15,14 @@ VOICEVOX( https://github.com/VOICEVOX/voicevox_engine )を用いて出力しま�
 ```
 data
 ├── 3_ずんだもん_ノーマル
-│   ├── 000_myvoice
-│   │   ├── text
-│   │   │   ├── emotion001.txt
-│   │   │   ├── emotion002.txt
-│   │   │   ├── ...
-│   │   └── wav
-│   │        ├── emotion001.wav
-│   │        ├── emotion002.wav
+│   ├── text
+│   │   ├── emotion001.txt
+│   │   ├── emotion002.txt
+│   │   ├── ...
+│   └── wav
+│       ├── emotion001.wav
+│       ├── emotion002.wav
+│       ├── ...
 ```
 
 # Q&A
