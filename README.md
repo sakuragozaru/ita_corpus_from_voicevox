@@ -13,7 +13,7 @@ VOICEVOX( https://github.com/VOICEVOX/voicevox_engine )を用いて出力しま�
 4. 選択したら「Start」を押して進捗が完了するまでお待ちください。
 5. 「出力完了」と表示されたら完了です。dataフォルダに以下の形でファイルが出力されています。
 ```
-   data
+data
 ├── 3_ずんだもん_ノーマル
 │   ├── 000_myvoice
 │   │   ├── text
