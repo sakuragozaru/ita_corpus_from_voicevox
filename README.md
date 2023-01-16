@@ -7,7 +7,7 @@ VOICEVOX( https://github.com/VOICEVOX/voicevox_engine )を用いて出力しま�
 ![スクリーンショット](https://github.com/sakuragozaru/ita_corpus_from_voicevox/blob/images/images/2023-01-14_093223.png "スクリーンショット")
 
 # 使い方
-1. VOICEVOX ENGINE( https://github.com/VOICEVOX/voicevox_engine )をダウンロードして起動してください
+1. VOICEVOX ENGINE( https://github.com/VOICEVOX/voicevox_engine )をダウンロードして起動してください (VOICEVOXの起動でもOK)
 2. index.exe (またはpython index.py) を実行してください。ウィンドウが表示され「Voicevoxと接続中」と表示されます。
 3. 接続に成功すると話者とスタイル選択画面になります。話者とスタイルを選択してください。
 4. 選択したら「Start」を押して進捗が完了するまでお待ちください。
