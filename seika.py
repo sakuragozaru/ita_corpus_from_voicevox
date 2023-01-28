@@ -42,7 +42,7 @@ def synthesis(speaker_id, text):
       'Accept': 'application/json',
   }
   data = {"talktext":text}
-  response = requests.post(f'http://localhost:7180/SAVE2/{speaker_id}/22050', auth=("SeikaServerUser", "SeikaServerPassword"), headers=headers, data=json.dumps(data).encode('utf-8'))
+  response = requests.post(f'http://localhost:7180/SAVE2/{speaker_id}/24000', auth=("SeikaServerUser", "SeikaServerPassword"), headers=headers, data=json.dumps(data).encode('utf-8'))
   return response
 
 def output_wav_txt(folder, speaker_id, filername, text):
