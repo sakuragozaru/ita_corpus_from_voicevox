@@ -48,7 +48,7 @@ corpus.csvを別のファイルに置き換えてください。各行は「フ�
 ## 使い方
 1. [AssistantSeika]( https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000 )をダウンロードして起動してください
 2. 使用製品のスキャンを行ってください（スキャン時の音声効果で収録されます）
-3. 画像の通りにHTTP機能を設定してください  (ワークフォルダとでドキュメントルートフォルダは自由に設定してください)
+3. 画像の通りにHTTP機能を設定してください  (ワークフォルダとでドキュメントルートフォルダは自由に設定してください)  
 ![スクリーンショット 2023-01-28 211403](https://user-images.githubusercontent.com/77018668/215267415-c063d0af-65a5-4dad-bc92-854625582ad8.png)
 4. seika.exe (またはpython seika.py) を実行してください。ウィンドウが表示され「AssistantSeikaと接続中」と表示されます。
 5. 接続に成功すると話者選択画面になります。話者を選択してください。
