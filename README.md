@@ -42,7 +42,7 @@ corpus.csvを別のファイルに置き換えてください。各行は「フ�
 
 ## これはなに？
 [ITAコーパス]( https://github.com/mmorise/ita-corpus )の424文を[AssistantSeika]( https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000 )を用いて出力します。  
-例えば東北きりたんの音声ファイルを出力する目的などで利用することを想定しています
+例えば東北きりたんの音声ファイルを出力する目的などで利用することを想定しています  
 ( https://twitter.com/t_zunko/status/1519841867009257472 )
 
 ## 使い方
