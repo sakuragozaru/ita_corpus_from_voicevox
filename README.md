@@ -38,7 +38,7 @@ corpus.csvを別のファイルに置き換えてください。各行は「フ�
   
 ***
 
-# (2023/01/28追加)AssistantSeika利用版
+# (2023/01/28追加_動作確認中)AssistantSeika利用版
 
 ## これはなに？
 [ITAコーパス]( https://github.com/mmorise/ita-corpus )の424文を[AssistantSeika]( https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000 )を用いて出力します。  
@@ -70,3 +70,4 @@ data
 * 2023/01/14 11:15 実装完了
 * 2023/01/14 11:50 GithubのReadme整備
 * 2023/01/28 22:00 AssisantSeikaに対応
+* 2023/01/29 01:40 AssisantSeikaから収集する音声を22000HZに変更
