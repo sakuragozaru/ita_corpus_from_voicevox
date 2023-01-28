@@ -1,13 +1,12 @@
 ITAコーパス出力くん
 ====
 # これはなに？
-ITAコーパス( https://github.com/mmorise/ita-corpus )の424文を  
-VOICEVOX( https://github.com/VOICEVOX/voicevox_engine )を用いて出力します。  
+[ITAコーパス]( https://github.com/mmorise/ita-corpus )の424文を[VOICEVOX]( https://github.com/VOICEVOX/voicevox_engine )を用いて出力します。  
+![スクリーンショット](https://github.com/sakuragozaru/ita_corpus_from_voicevox/blob/images/images/2023-01-14_093223.png "スクリーンショット")  
 （一部の文は分割されているため進捗バーの分母は443となっています）   
-![スクリーンショット](https://github.com/sakuragozaru/ita_corpus_from_voicevox/blob/images/images/2023-01-14_093223.png "スクリーンショット")
 
 # 使い方
-1. VOICEVOX ENGINE( https://github.com/VOICEVOX/voicevox_engine )をダウンロードして起動してください (VOICEVOXの起動でもOK)
+1. [VOICEVOX ENGINE]( https://github.com/VOICEVOX/voicevox_engine )をダウンロードして起動してください (VOICEVOXの起動でもOK)
 2. index.exe (またはpython index.py) を実行してください。ウィンドウが表示され「Voicevoxと接続中」と表示されます。
 3. 接続に成功すると話者とスタイル選択画面になります。話者とスタイルを選択してください。
 4. 選択したら「Start」を押して進捗が完了するまでお待ちください。
@@ -36,10 +35,38 @@ corpus.csvを別のファイルに置き換えてください。各行は「フ�
 ### 選びたい話者がいません
 話者とスタイルは今起動しているVOICEVOX ENGINEから取得しています。  
 最新のVOICEVOX ENGINEを入手してください。
+  
+***
+
+# (2023/01/28追加)AssistantSeika利用版
+
+## これはなに？
+[ITAコーパス]( https://github.com/mmorise/ita-corpus )の424文を[AssistantSeika]( https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000 )を用いて出力します。  
+例えば東北きりたんの音声ファイルを出力する目的などで利用することを想定しています
+( https://twitter.com/t_zunko/status/1519841867009257472 )
+
+## 使い方
+1. [AssistantSeika]( https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000 )をダウンロードして起動してください
+2. 使用製品のスキャンを行ってください（スキャン時の音声効果で収録されます）
+3. 画像の通りにHTTP機能を設定してください  
+![スクリーンショット 2023-01-28 211403](https://user-images.githubusercontent.com/77018668/215267415-c063d0af-65a5-4dad-bc92-854625582ad8.png)
+4. seika.exe (またはpython seika.py) を実行してください。ウィンドウが表示され「AssistantSeikaと接続中」と表示されます。
+5. 接続に成功すると話者選択画面になります。話者を選択してください。
+6. 選択したら「Start」を押して進捗が完了するまでお待ちください。  
+（再生されている全音声がwavに記録されるようなので他音声が鳴っていない状態にしてください）
+1. 「出力完了」と表示されたら完了です。dataフォルダに音声ファイルが出力されています。
+```
+data
+├── 1707_東北きりたん EX_VOICEROID+EX_1707
+│   └── wav
+│       ├── emotion001.wav
+│       ├── emotion002.wav
+│       ├── ...
+```
 
 # 制作ログ
 * 2023/01/14 00:48 制作開始
 * 2023/01/14 02:26 ITAコーパスからCSV作成完了
 * 2023/01/14 11:15 実装完了
-* 2023/01/14 11:25 Github用のREADME.md作成
-* 2023/01/14 11:50 exe再出力とREADMEに画像添付
+* 2023/01/14 11:50 GithubのReadme整備
+* 2023/01/28 22:00 AssisantSeikaに対応
