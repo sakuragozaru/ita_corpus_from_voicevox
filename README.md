@@ -43,12 +43,12 @@ corpus.csvを別のファイルに置き換えてください。各行は「フ�
 ## これはなに？
 [ITAコーパス]( https://github.com/mmorise/ita-corpus )の424文を[AssistantSeika]( https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000 )を用いて出力します。  
 例えば東北きりたんの音声ファイルを出力する目的などで利用することを想定しています  
-( https://twitter.com/t_zunko/status/1519841867009257472 )
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">きりたんになる場合はボイロで100から400文章程度をボイロに読ませるとできるかもですヽ(′▽︎`*)乂(*′▽︎`)ﾉ<br>読ませる文章はITAコーパス使えばいいのでどなたか良ければやってみてください⸜( ´ ꒳ ` )⸝♡︎<br> <a href="https://t.co/HDwbDZielq">https://t.co/HDwbDZielq</a></p>&mdash; 東北ずん子💚きりたんボイスピ クラウドファンディング (@t_zunko) <a href="https://twitter.com/t_zunko/status/1519841867009257472?ref_src=twsrc%5Etfw">April 29, 2022</a></blockquote> 
 
 ## 使い方
 1. [AssistantSeika]( https://hgotoh.jp/wiki/doku.php/documents/voiceroid/assistantseika/assistantseika-000 )をダウンロードして起動してください
 2. 使用製品のスキャンを行ってください（スキャン時の音声効果で収録されます）
-3. 画像の通りにHTTP機能を設定してください  (ワークフォルダとでドキュメントルートフォルダは自由に設定してください)  
+3. 画像の通りにHTTP機能を設定してください  (ワークフォルダとドキュメントルートフォルダは自由に設定してください)  
 ![スクリーンショット 2023-01-28 211403](https://user-images.githubusercontent.com/77018668/215267415-c063d0af-65a5-4dad-bc92-854625582ad8.png)
 4. seika.exe (またはpython seika.py) を実行してください。ウィンドウが表示され「AssistantSeikaと接続中」と表示されます。
 5. 接続に成功すると話者選択画面になります。話者を選択してください。
